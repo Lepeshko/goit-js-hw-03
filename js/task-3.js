@@ -2,12 +2,11 @@ function filterArray(numbers, value) {
     const filteredNumbers = [];
 
     for (let i = 0; i < numbers.length; i++) {
-      // Якщо число більше ніж value, додаємо його до filteredNumbers
       if (numbers[i] > value) {
         filteredNumbers.push(numbers[i]);
       }
     }
-    
+
     return filteredNumbers;
   }
 
